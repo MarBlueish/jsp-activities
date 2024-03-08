@@ -15,6 +15,7 @@
             if (escolha.equals("mas")) {
                 resultado = peso / (altura * altura);
                 out.print("<br/> O seu IMC é de " + resultado);
+                
                 if (resultado < 20) {
                     out.print("<br/> Você está abaixo do peso");
                 } else if (resultado >= 20 && resultado <= 25) {
